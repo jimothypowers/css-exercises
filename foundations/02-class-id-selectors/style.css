@@ -1,0 +1,20 @@
+/* styles.css */    
+p {
+    background-color:#F88888;
+    font-family: Verdana, "DejaVu sans", sans-serif;
+    
+}
+#number2 {
+    color: #1e35ff;
+    font-size: 36px;
+
+}
+span {
+    font-size: 24px;
+}
+
+.number4 {
+    background-color: #5fff4a;
+    font-size: 24px;
+    font-weight: bold;
+}

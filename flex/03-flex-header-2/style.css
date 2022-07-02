@@ -6,10 +6,6 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  border: red solid 2px;
 }
 
 .header {
@@ -18,7 +14,6 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  flex: 1 1 auto;
   padding: 8px;
   
 }
@@ -29,6 +24,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  margin: 8px;
 }
 
 .logo {
@@ -44,7 +40,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  margin: auto;
+
 }
 
 a {
@@ -56,5 +52,15 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  margin 0;
+  padding: 0;
   gap: 1em;
+}
+
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
 }
